@@ -1,0 +1,460 @@
+2026-10-25 16:51:55 UTC
+NAME           REFERENCE                 TARGETS                 MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: <unknown>/80%   1         10        1          0s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           7m49s
+error: metrics not available yet
+2026-10-25 16:52:06 UTC
+NAME           REFERENCE                 TARGETS                 MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: <unknown>/80%   1         10        1          11s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           8m
+error: metrics not available yet
+2026-10-25 16:52:17 UTC
+NAME           REFERENCE                 TARGETS                 MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: <unknown>/80%   1         10        1          22s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           8m11s
+error: metrics not available yet
+2026-10-25 16:52:27 UTC
+NAME           REFERENCE                 TARGETS                 MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: <unknown>/80%   1         10        1          33s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           8m22s
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-lhncw   10m          7Mi
+2026-10-25 16:52:38 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 75%/80%   1         10        1          43s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           8m33s
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-lhncw   10m          7Mi
+2026-10-25 16:52:49 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 75%/80%   1         10        1          54s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           8m43s
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-lhncw   10m          7Mi
+2026-10-25 16:53:00 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 75%/80%   1         10        2          65s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           8m54s
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-lhncw   10m          7Mi
+2026-10-25 16:53:10 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 75%/80%   1         10        2          76s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           9m5s
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-lhncw   10m          7Mi
+2026-10-25 16:53:21 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 75%/80%   1         10        2          86s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           9m16s
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-lhncw   10m          7Mi
+2026-10-25 16:53:32 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 75%/80%   1         10        2          97s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           9m27s
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-lhncw   27m          13Mi
+scaletestapp-7d97dfd5bd-x8tfn   8m           7Mi
+2026-10-25 16:53:43 UTC
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 108%/80%   1         10        2          108s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/3     3            3           9m37s
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-lhncw   27m          13Mi
+scaletestapp-7d97dfd5bd-x8tfn   8m           7Mi
+2026-10-25 16:53:54 UTC
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 108%/80%   1         10        3          119s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/3     3            3           9m48s
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-lhncw   27m          13Mi
+scaletestapp-7d97dfd5bd-x8tfn   8m           7Mi
+2026-10-25 16:54:04 UTC
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 108%/80%   1         10        3          2m10s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/3     3            3           9m59s
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-lhncw   27m          13Mi
+scaletestapp-7d97dfd5bd-x8tfn   8m           7Mi
+2026-10-25 16:54:15 UTC
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 108%/80%   1         10        3          2m20s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/3     3            3           10m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-lhncw   27m          13Mi
+scaletestapp-7d97dfd5bd-x8tfn   8m           7Mi
+2026-10-25 16:54:26 UTC
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 108%/80%   1         10        3          2m31s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/3     3            3           10m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-lhncw   27m          13Mi
+scaletestapp-7d97dfd5bd-x8tfn   8m           7Mi
+2026-10-25 16:54:37 UTC
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 116%/80%   1         10        3          2m42s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/5     5            3           10m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-jj5rh   5m           5Mi
+scaletestapp-7d97dfd5bd-lhncw   37m          17Mi
+scaletestapp-7d97dfd5bd-x8tfn   18m          11Mi
+2026-10-25 16:54:47 UTC
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 116%/80%   1         10        3          2m53s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   5/5     5            5           10m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-jj5rh   5m           5Mi
+scaletestapp-7d97dfd5bd-lhncw   37m          17Mi
+scaletestapp-7d97dfd5bd-x8tfn   18m          11Mi
+2026-10-25 16:54:58 UTC
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 116%/80%   1         10        5          3m3s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   5/5     5            5           10m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-jj5rh   5m           5Mi
+scaletestapp-7d97dfd5bd-lhncw   37m          17Mi
+scaletestapp-7d97dfd5bd-x8tfn   18m          11Mi
+2026-10-25 16:55:09 UTC
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 116%/80%   1         10        5          3m14s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   5/5     5            5           11m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-jj5rh   5m           5Mi
+scaletestapp-7d97dfd5bd-lhncw   37m          17Mi
+scaletestapp-7d97dfd5bd-x8tfn   18m          11Mi
+2026-10-25 16:55:20 UTC
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 116%/80%   1         10        5          3m25s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   5/5     5            5           11m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-jj5rh   5m           5Mi
+scaletestapp-7d97dfd5bd-lhncw   37m          17Mi
+scaletestapp-7d97dfd5bd-x8tfn   18m          11Mi
+2026-10-25 16:55:30 UTC
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 116%/80%   1         10        5          3m36s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   5/5     5            5           11m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-jj5rh   11m          8Mi
+scaletestapp-7d97dfd5bd-l6cdc   2m           3Mi
+scaletestapp-7d97dfd5bd-lhncw   42m          21Mi
+scaletestapp-7d97dfd5bd-nlpcm   3m           3Mi
+scaletestapp-7d97dfd5bd-x8tfn   24m          13Mi
+2026-10-25 16:55:41 UTC
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 100%/80%   1         10        5          3m47s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   7/7     7            7           11m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-jj5rh   11m          8Mi
+scaletestapp-7d97dfd5bd-l6cdc   2m           3Mi
+scaletestapp-7d97dfd5bd-lhncw   42m          21Mi
+scaletestapp-7d97dfd5bd-nlpcm   3m           3Mi
+scaletestapp-7d97dfd5bd-x8tfn   24m          13Mi
+2026-10-25 16:55:52 UTC
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 100%/80%   1         10        7          3m57s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   7/7     7            7           11m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-jj5rh   11m          8Mi
+scaletestapp-7d97dfd5bd-l6cdc   2m           3Mi
+scaletestapp-7d97dfd5bd-lhncw   42m          21Mi
+scaletestapp-7d97dfd5bd-nlpcm   3m           3Mi
+scaletestapp-7d97dfd5bd-x8tfn   24m          13Mi
+2026-10-25 16:56:03 UTC
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 100%/80%   1         10        7          4m8s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   7/7     7            7           11m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-jj5rh   11m          8Mi
+scaletestapp-7d97dfd5bd-l6cdc   2m           3Mi
+scaletestapp-7d97dfd5bd-lhncw   42m          21Mi
+scaletestapp-7d97dfd5bd-nlpcm   3m           3Mi
+scaletestapp-7d97dfd5bd-x8tfn   24m          13Mi
+2026-10-25 16:56:14 UTC
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 100%/80%   1         10        7          4m19s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   7/7     7            7           12m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-jj5rh   11m          8Mi
+scaletestapp-7d97dfd5bd-l6cdc   2m           3Mi
+scaletestapp-7d97dfd5bd-lhncw   42m          21Mi
+scaletestapp-7d97dfd5bd-nlpcm   3m           3Mi
+scaletestapp-7d97dfd5bd-x8tfn   24m          13Mi
+2026-10-25 16:56:24 UTC
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 100%/80%   1         10        7          4m30s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   7/7     7            7           12m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-jj5rh   11m          8Mi
+scaletestapp-7d97dfd5bd-l6cdc   2m           3Mi
+scaletestapp-7d97dfd5bd-lhncw   42m          21Mi
+scaletestapp-7d97dfd5bd-nlpcm   3m           3Mi
+scaletestapp-7d97dfd5bd-x8tfn   24m          13Mi
+2026-10-25 16:56:35 UTC
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 100%/80%   1         10        7          4m40s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   7/7     7            7           12m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   13m          9Mi
+scaletestapp-7d97dfd5bd-l6cdc   3m           4Mi
+scaletestapp-7d97dfd5bd-lhncw   44m          21Mi
+scaletestapp-7d97dfd5bd-nlpcm   4m           4Mi
+scaletestapp-7d97dfd5bd-x8tfn   25m          13Mi
+2026-10-25 16:56:46 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 82%/80%   1         10        7          4m51s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   7/7     7            7           12m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   13m          9Mi
+scaletestapp-7d97dfd5bd-l6cdc   3m           4Mi
+scaletestapp-7d97dfd5bd-lhncw   44m          21Mi
+scaletestapp-7d97dfd5bd-nlpcm   4m           4Mi
+scaletestapp-7d97dfd5bd-x8tfn   25m          13Mi
+2026-10-25 16:56:57 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 82%/80%   1         10        7          5m2s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   7/7     7            7           12m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   13m          9Mi
+scaletestapp-7d97dfd5bd-l6cdc   3m           4Mi
+scaletestapp-7d97dfd5bd-lhncw   44m          21Mi
+scaletestapp-7d97dfd5bd-nlpcm   4m           4Mi
+scaletestapp-7d97dfd5bd-x8tfn   25m          13Mi
+2026-10-25 16:57:07 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 82%/80%   1         10        7          5m13s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   7/7     7            7           13m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   13m          9Mi
+scaletestapp-7d97dfd5bd-l6cdc   3m           4Mi
+scaletestapp-7d97dfd5bd-lhncw   44m          21Mi
+scaletestapp-7d97dfd5bd-nlpcm   4m           4Mi
+scaletestapp-7d97dfd5bd-x8tfn   25m          13Mi
+2026-10-25 16:57:18 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 82%/80%   1         10        7          5m23s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   7/7     7            7           13m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   13m          9Mi
+scaletestapp-7d97dfd5bd-l6cdc   3m           4Mi
+scaletestapp-7d97dfd5bd-lhncw   44m          21Mi
+scaletestapp-7d97dfd5bd-nlpcm   4m           4Mi
+scaletestapp-7d97dfd5bd-x8tfn   25m          13Mi
+2026-10-25 16:57:29 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 82%/80%   1         10        7          5m34s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   7/7     7            7           13m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   13m          9Mi
+scaletestapp-7d97dfd5bd-l6cdc   3m           6Mi
+scaletestapp-7d97dfd5bd-lhncw   42m          22Mi
+scaletestapp-7d97dfd5bd-nlpcm   4m           6Mi
+scaletestapp-7d97dfd5bd-x8tfn   24m          14Mi
+2026-10-25 16:57:40 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 89%/80%   1         10        7          5m45s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   8/8     8            8           13m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   13m          9Mi
+scaletestapp-7d97dfd5bd-l6cdc   3m           6Mi
+scaletestapp-7d97dfd5bd-lhncw   42m          22Mi
+scaletestapp-7d97dfd5bd-nlpcm   4m           6Mi
+scaletestapp-7d97dfd5bd-x8tfn   24m          14Mi
+2026-10-25 16:57:50 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 89%/80%   1         10        7          5m56s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   8/8     8            8           13m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   13m          9Mi
+scaletestapp-7d97dfd5bd-l6cdc   3m           6Mi
+scaletestapp-7d97dfd5bd-lhncw   42m          22Mi
+scaletestapp-7d97dfd5bd-nlpcm   4m           6Mi
+scaletestapp-7d97dfd5bd-x8tfn   24m          14Mi
+2026-10-25 16:58:01 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 89%/80%   1         10        8          6m6s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   8/8     8            8           13m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   13m          9Mi
+scaletestapp-7d97dfd5bd-l6cdc   3m           6Mi
+scaletestapp-7d97dfd5bd-lhncw   42m          22Mi
+scaletestapp-7d97dfd5bd-nlpcm   4m           6Mi
+scaletestapp-7d97dfd5bd-x8tfn   24m          14Mi
+2026-10-25 16:58:12 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 89%/80%   1         10        8          6m17s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   8/8     8            8           14m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   13m          9Mi
+scaletestapp-7d97dfd5bd-l6cdc   3m           6Mi
+scaletestapp-7d97dfd5bd-lhncw   42m          22Mi
+scaletestapp-7d97dfd5bd-nlpcm   4m           6Mi
+scaletestapp-7d97dfd5bd-x8tfn   24m          14Mi
+2026-10-25 16:58:23 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 89%/80%   1         10        8          6m28s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   8/8     8            8           14m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   13m          9Mi
+scaletestapp-7d97dfd5bd-l6cdc   3m           6Mi
+scaletestapp-7d97dfd5bd-lhncw   42m          22Mi
+scaletestapp-7d97dfd5bd-nlpcm   4m           6Mi
+scaletestapp-7d97dfd5bd-x8tfn   24m          14Mi
+2026-10-25 16:58:33 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 89%/80%   1         10        8          6m39s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   8/8     8            8           14m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-d4bph   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   9m           8Mi
+scaletestapp-7d97dfd5bd-l6cdc   2m           5Mi
+scaletestapp-7d97dfd5bd-lhncw   28m          19Mi
+scaletestapp-7d97dfd5bd-nlpcm   2m           6Mi
+scaletestapp-7d97dfd5bd-x8tfn   16m          13Mi
+2026-10-25 16:58:44 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 73%/80%   1         10        8          6m49s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   8/8     8            8           14m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-d4bph   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   9m           8Mi
+scaletestapp-7d97dfd5bd-l6cdc   2m           5Mi
+scaletestapp-7d97dfd5bd-lhncw   28m          19Mi
+scaletestapp-7d97dfd5bd-nlpcm   2m           6Mi
+scaletestapp-7d97dfd5bd-x8tfn   16m          13Mi
+2026-10-25 16:58:55 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 73%/80%   1         10        8          7m
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   8/8     8            8           14m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-d4bph   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   9m           8Mi
+scaletestapp-7d97dfd5bd-l6cdc   2m           5Mi
+scaletestapp-7d97dfd5bd-lhncw   28m          19Mi
+scaletestapp-7d97dfd5bd-nlpcm   2m           6Mi
+scaletestapp-7d97dfd5bd-x8tfn   16m          13Mi
+2026-10-25 16:59:06 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 73%/80%   1         10        8          7m11s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   8/8     8            8           15m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-d4bph   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   9m           8Mi
+scaletestapp-7d97dfd5bd-l6cdc   2m           5Mi
+scaletestapp-7d97dfd5bd-lhncw   28m          19Mi
+scaletestapp-7d97dfd5bd-nlpcm   2m           6Mi
+scaletestapp-7d97dfd5bd-x8tfn   16m          13Mi
+2026-10-25 16:59:16 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 73%/80%   1         10        8          7m22s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   8/8     8            8           15m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-d4bph   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   9m           8Mi
+scaletestapp-7d97dfd5bd-l6cdc   2m           5Mi
+scaletestapp-7d97dfd5bd-lhncw   28m          19Mi
+scaletestapp-7d97dfd5bd-nlpcm   2m           6Mi
+scaletestapp-7d97dfd5bd-x8tfn   16m          13Mi
+2026-10-25 16:59:27 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 73%/80%   1         10        8          7m32s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   8/8     8            8           15m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-d4bph   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   1m           8Mi
+scaletestapp-7d97dfd5bd-l6cdc   1m           6Mi
+scaletestapp-7d97dfd5bd-lhncw   1m           19Mi
+scaletestapp-7d97dfd5bd-nlpcm   1m           6Mi
+scaletestapp-7d97dfd5bd-x8tfn   1m           13Mi
+2026-10-25 16:59:38 UTC
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 74%/80%   1         10        8          7m43s
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   8/8     8            8           15m
+NAME                            CPU(cores)   MEMORY(bytes)
+scaletestapp-7d97dfd5bd-89jrr   1m           1Mi
+scaletestapp-7d97dfd5bd-cgngh   1m           1Mi
+scaletestapp-7d97dfd5bd-d4bph   1m           1Mi
+scaletestapp-7d97dfd5bd-jj5rh   1m           8Mi
+scaletestapp-7d97dfd5bd-l6cdc   1m           6Mi
+scaletestapp-7d97dfd5bd-lhncw   1m           19Mi
+scaletestapp-7d97dfd5bd-nlpcm   1m           6Mi
+scaletestapp-7d97dfd5bd-x8tfn   1m           13Mi
